@@ -56,3 +56,7 @@ qrcode-wifi/
 ├── .env
 └── LICENSE
 ```
+
+## 🧪 QRCode Example
+
+<img src="examples/qr_code_example.png" width="300px" alt="Exemplo de QR Code gerado">
