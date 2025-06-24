@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qrcode-wifi"
+version = "0.1.0"
+description = "Gere QR Codes em A4 para redes Wi-Fi com logo e texto"
+authors = [
+  { name = "Thomaz Romano" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+dependencies = [
+  "qrcode",
+  "pillow",
+  "pytest"
+]
+keywords = ["qr code", "wifi", "imagem", "gerador"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+[project.urls]
+"GitHub" = "https://github.com/romanozamoth/qrcode-wifi"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
